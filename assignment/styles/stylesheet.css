@@ -2,7 +2,12 @@ header {
     background-color: lightcoral;
 }
 
-.info {
+h2 {
     background-color: aquamarine;
     color:darkgoldenrod
+}
+
+h3 {
+    background-color: midnightblue;
+    color:thistle;
 }
