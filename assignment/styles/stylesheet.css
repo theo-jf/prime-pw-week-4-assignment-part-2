@@ -1,13 +1,62 @@
+body {
+    margin: 0;
+    background-color: darkslategrey;
+}
+
 header {
     background-color: lightcoral;
+    text-align: center;
+    padding-block: 2%;
 }
 
 h2 {
     background-color: aquamarine;
-    color:darkgoldenrod
+    color: darkgoldenrod;
+    padding-top: 1%;
+    padding-bottom: .5%;
 }
 
 h3 {
     background-color: midnightblue;
-    color:thistle;
+    color: thistle;
+}
+
+div {
+    margin-top: 1.5%;
+    border-style: outset;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    background-color: aliceblue;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+}
+
+.info {
+    text-align: center;
+}
+
+iframe {
+    pointer-events: none;
+    user-select: none;
+}
+
+iframe:hover {
+    cursor: default;
+}
+
+.leftGif {
+    float: left;
+    margin-top: 20%;
+    margin-left: -2%;
+}
+
+.rightGif {
+    float: right;
+    margin-top: 20%;
+    margin-right: -2%;
 }
